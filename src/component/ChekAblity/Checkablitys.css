@@ -1,0 +1,32 @@
+.sidebar-contact {
+  z-index: 9999;
+  position: fixed;
+  top: 60%;
+  left: -350px;
+  transform: translateY(-50%);
+  width: 350px;
+}
+.toggle h4 {
+  width: 150px;
+  transform: rotate(91deg);
+  color: white;
+  margin: 75px 9px 72px -50px;
+  letter-spacing: 0.5px;
+  font-size: 15px !important;
+}
+
+.toggle {
+  position: absolute;
+  height: 206px;
+  width: 55px;
+  text-align: center;
+  cursor: pointer;
+  background: #a06b14 !important;
+  top: 0;
+  right: -56px;
+  line-height: 48px;
+  color: #fff;
+  font-size: large;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px #fff;
+}

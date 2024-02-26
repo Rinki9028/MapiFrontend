@@ -1,0 +1,35 @@
+.mainheader {
+  font-size: 17px;
+  padding: 8%;
+  line-height: 40px;
+  margin-left: 5%;
+}
+
+.getcovereddetails {
+  padding: 7%;
+}
+
+.event-link {
+  font-family: "YourChosenFont", sans-serif;
+  color: #f99557;
+  text-decoration: none;
+}
+.event-list-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; 
+}
+
+.event-item {
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-left: -30px;
+  font-weight: 600;
+}
+.eventpara {
+  margin-top: 8%;
+}
+.eventparagraph {
+  font-size: 17px;
+  line-height: 30px;
+}

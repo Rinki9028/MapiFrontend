@@ -1,0 +1,22 @@
+.leadentry {
+  background-color: antiquewhite;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.itembox {
+  height: 200px;
+}
+b {
+  font-size: 13px;
+  color: #000;
+}
+.icons {
+  color: #ffff;
+  border-radius: 30px;
+  padding: 5%;
+  background-color: #a06b14;
+}
+a {
+  text-decoration: none;
+}

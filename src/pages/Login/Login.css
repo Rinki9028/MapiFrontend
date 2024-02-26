@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+.container {
+  
+}
+.wrapper {
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .title {
+  height: 90px;
+  background-color: #a06b14;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .loginForm {
+  padding: 35px 30px 30px 30px;
+}
+
+.wrapper .loginForm .row {
+  height: 45px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.wrapper .loginForm .row .inputbox {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.loginForm .row .inputbox:focus {
+  border-color: #a06b14;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.loginForm .row .inputbox::placeholder {
+  color: #999;
+}
+
+.wrapper .loginForm .row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #a06b14;
+  border: 1px solid #a06b14;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .loginForm .pass {
+  margin: 8px 0 20px 0;
+}
+
+.wrapper .loginForm .pass a {
+  color: #a06b14;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.wrapper .loginForm .pass a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .loginForm .button .inputbox {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0;
+  background: #a06b14;
+  border: 1px solid #a06b14;
+  cursor: pointer;
+}
+
+.loginForm .button .inputbox:hover {
+  background-color: #f4c16f;
+}
+
+.wrapper .loginForm .signup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.wrapper .loginForm .signup-link a {
+  color: #a06b14;
+  text-decoration: none;
+}
+
+.loginForm .signup-link a:hover {
+  text-decoration: none;
+}
+.dashboard{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
